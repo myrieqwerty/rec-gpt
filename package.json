@@ -1,0 +1,23 @@
+{
+  "name": "rec-gpt",
+  "version": "0.1.0",
+  "description": "решение тестовой задачи",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "ins": "npm install && cd client && npm install",
+    "dev": "concurrently \"nodemon\" \"cd client && npm run dev\""
+  },
+  "author": "myrieqwerty <myrieqwerty@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.10.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10"
+  }
+}

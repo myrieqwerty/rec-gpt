@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+body {
+  margin: 0;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white
+}
+
+.loadingSpinner {
+  display: flex;
+  gap: 5px;
+  div {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+  }
+}
+
